@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: playlist-weather-svc
+  cloud:
+    config:
+      enable: false
+
+eureka:
+  client:
+    enable: false
+
+open-weather-map:
+  url: api.openweathermap.org/data/2.5
+  api-key: 123456
+  unit: metric
